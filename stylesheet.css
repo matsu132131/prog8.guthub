@@ -1,0 +1,106 @@
+body a {
+  text-decoration: none;
+  
+}
+
+body ul{
+  list-style: none;
+}
+
+.container{
+  max-width: 1170px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+/* ヘッダー */
+
+header{
+  background-color: #8ec6ff;
+  height: 50px;
+  line-height: 23px;
+}
+
+.fa{
+  font-size: 25px;
+  color: #fffff0;
+}
+
+.logo{
+  font-size: 24px;
+  
+}
+
+.header-menu{
+  display: block;
+  background-color: #ffff89;
+  height: 35px;
+  line-height: 35px;
+  color: #000;
+  border-radius: 4px;
+  opacity: 0.9;
+  padding: 0 10px;
+}
+
+.header-menu:hover{
+  opacity: 1;
+}
+
+/* トップ */
+
+.top-wrapper{
+  height: 100em;
+  background-color: #fffff0;
+}
+
+.top-foreword{
+  padding: 50px 0px;
+}
+
+.text{
+ text-align: left;
+}
+
+.text span{
+  font-weight: 600;
+}
+
+.top-menu{
+  border: solid 2px #8ec6ff;
+  border-radius: 15px;
+  position: relative;
+}
+
+.top-menu-color{
+  background-color: #8ec6ff;
+  height: 70px;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+
+}
+
+.top-menu h3{
+  text-align: left;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  color: #fffff0;
+  letter-spacing: 0.2em;
+}
+
+.top-menu li {
+  padding: 10px 0px;
+}
+
+.top-menu li a{
+  color: #000;
+  font-weight: 600;
+}
